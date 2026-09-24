@@ -18,6 +18,6 @@ class area5 {
         v1.add(30);
         v1.add(40);
         System.out.println(v1);
-        area5 a4 = new area5();
-        a4.area(v1);  }
+        area5 a5 = new area5();
+        a5.area(v1);  }
 }

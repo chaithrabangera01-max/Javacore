@@ -12,6 +12,13 @@ class pq{
         System.out.println(p1);
         //methods
 
-        p1.add(2,33);
+        //p1.add(2,33);this operation cannot be done
+           
+
+            p1.remove(10);
+             System.out.println(p1);
+
+             System.out.println(p1.size());
+             System.out.println(p1.contains(12));
     }
 }

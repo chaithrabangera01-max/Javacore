@@ -20,5 +20,24 @@ class pq{
 
              System.out.println(p1.size());
              System.out.println(p1.contains(12));
+
+
+             PriorityQueue p2=new PriorityQueue();
+             p2.add(100);
+             p2.add(200);
+             p2.add(300);
+             p2.add(400);
+             p2.add(-1000);
+             System.out.println(p2);
+
+            p1.addAll(p2);
+               System.out.println(p1.size());
+
+               while(!p1.isEmpty()){
+                System.out.println(p1.poll());
+               }
+
+
+
     }
 }
